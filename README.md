@@ -8,6 +8,12 @@ Dingo is a Godot add-on for generating and decorating customizable procedural du
 # Features
 
 # Disclaimer
+- This project was built off of this tutorial by quwatz_! I referenced a good amount of their code so please check out their channel :) 
+https://www.youtube.com/watch?v=h64U6j_sFgs&list=PLIjshinY7LU9EsAAuCTrfOSs2mxC6GCyw&index=4
+
+- This is my first Godot addon i've published, so please let me know if you have any critiques or suggestions, I would like to create more addons in the future so I appreciate the feedback
+
+- If you do end up using this plugin, I would be very interested in seeing what you create! Feel free to show me your results in your game or any other projects by contacting me through any of the socials I have linked. I look forward to seeing what the community can create with this tool and how it can be improved 
 
 # Installation & Usage
 
@@ -20,8 +26,17 @@ Full Documentation:
 # Contribution 
 
 # Known Issues/Limitations
+- Corridors can only be of one room type 
+- No seed creation 
+- Large scenes with lots of rooms can crash Godot when the project is opened (to fix this if it occurs, prevent the scene from opening upon startup in Projects → Project Settings → Application → Run → Main Scene)
 
 # Future Plans 
+- Seed creation
+- Multiple corridor roomtypes
+- Faster mesh building
+- LODs
+- Customizable corner tiles for room types
+- Minimap creation
 
 # Support/My Links
 
